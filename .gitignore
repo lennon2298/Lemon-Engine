@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+.vscode/
+bin/
+bin-int/
+Makefile
+GPATH
+GRTAGS
+GTAGS
