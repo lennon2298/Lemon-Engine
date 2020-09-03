@@ -32,6 +32,6 @@ namespace Lemon {
 #ifdef LM_DEBUG
     #define LM_CORE_TRACE(...) ::Lemon::Log::GetCoreLogger()->trace(__VA_ARGS__)
     #define LM_CORE_INFO(...) ::Lemon::Log::GetCoreLogger()->info(__VA_ARGS__)
-    #define LM_TRACE(...) ::Lemon::Log::GetCoreLogger()->trace(__VA_ARGS__)
+    #define LM_TRACE(...) ::Lemon::Log::GetClientLogger()->trace(__VA_ARGS__)
     #define LM_INFO(...) ::Lemon::Log::GetClientLogger()->info(__VA_ARGS__) 
 #endif
