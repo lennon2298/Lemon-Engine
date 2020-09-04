@@ -7,3 +7,6 @@
 [submodule "Lemon/vendor/glm"]
 	path = Lemon/vendor/glm
 	url = https://github.com/g-truc/glm
+[submodule "Lemon/vendor/imgui"]
+	path = Lemon/vendor/imgui
+	url = https://github.com/TheCherno/imgui.git
